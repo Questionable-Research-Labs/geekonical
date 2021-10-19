@@ -5,7 +5,7 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: #b9c6d2;
+	--primary-color: #e0e0e0;
 	--secondary-color: #d0dde9;
 	--tertiary-color: #edf0f8;
 	--accent-color: #ff3e00;
@@ -62,7 +62,6 @@ p {
 }
 
 a {
-	color: var(--accent-color);
 	text-decoration: none;
 }
 

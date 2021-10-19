@@ -1,0 +1,23 @@
+$background: #31343f;
+    $selected: #3e414a;
+    $text: white;
+    #svelte {
+        background-color: $background;
+        color: $text;
+        --fc-button-bg-color: #3e414a;
+        --fc-button-text-color: $text;
+        --heading-color: $text;
+        --fc-button-hover-bg-color:  #aab1be;
+        --fc-button-active-bg-color:  #3e414a;
+        --fc-today-bg-color:  $selected;
+        --fc-page-bg-color:  #3e414a;
+        --fc-neutral-bg-color: $selected;
+    }
+    a {
+        color: #fff;
+    }
+    .fc-scrollgrid-sync-inner > .fc-col-header-cell-cushion {
+        display: block;
+        width: 100%;
+        background-color: $selected;   
+    }
